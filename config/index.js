@@ -22,7 +22,7 @@ exports.VENDOR_FIELD = {
 }
 
 exports.I18N = {
-  defaultLocale: 'en-US',
+  defaultLocale: 'fr-FR',
   enabledLocales: [
     'en-US',
     'fr-FR',
@@ -31,7 +31,7 @@ exports.I18N = {
 }
 
 exports.BIP39 = {
-  defaultLanguage: 'english',
+  defaultLanguage: 'french',
   languages: [
     'chinese_simplified',
     'chinese_traditional',
@@ -66,7 +66,7 @@ exports.MARKET = {
   source: {
     baseUrl: 'https://min-api.cryptocompare.com'
   },
-  defaultCurrency: 'BTC',
+  defaultCurrency: 'EUR',
   crypto: [
     'BTC',
     'ETH',
