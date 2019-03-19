@@ -5,7 +5,7 @@
   "server": "https://dexplorer.laroue.org:8443",
   "description": "The MLC Devnet is only used for R&D by engineers.",
   "imagePath": "networks/mlc.devnet.svg",
-  "apiVersion": 2,
+  "apiVersion": 1,
   "slip44": "1",
   "market": {
     "enabled": false,
