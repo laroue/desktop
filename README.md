@@ -1,6 +1,6 @@
-# Ark Desktop Wallet
+# Desktop Wallet
 
-![Ark Desktop Wallet](./banner.png)
+![Desktop Wallet](./banner.png)
 
 [![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/desktop-wallet)](https://circleci.com/gh/ArkEcosystem/desktop-wallet)
 [![Latest Version](https://badgen.now.sh/github/release/ArkEcosystem/desktop-wallet)](https://github.com/ArkEcosystem/desktop-wallet/releases)
@@ -31,7 +31,7 @@ brew cask install ark-desktop-wallet
 
 ## Translations
 
-Translations are part of our [ARK Development and Security Bounty Program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879).
+Translations are part of our [Development and Security Bounty Program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879).
 
 Full translations are considered to be `Tier 3`, while grammar fixes, typos, etc. are considered to be `Tier 6`.
 
@@ -132,8 +132,8 @@ yarn test:e2e:full
 # List what translations are missing or unused on a specific language. It could capture suggestions that are not accurate
 yarn i18n 'src/renderer/i18n/locales/LANGUAGE.js'
 
-# List what English messages are missing or unused (English is the default language)
-yarn i18n:en-US
+# List what English messages are missing or unused (French is the default language)
+yarn i18n:fr-FR
 
 # List what translations are missing or unused on every language
 yarn i18n:all

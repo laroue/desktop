@@ -1,5 +1,5 @@
 exports.APP = {
-  website: 'https://ark.io',
+  website: 'https://laroue.org',
   transactionExpiryMinutes: 45
 }
 
@@ -14,7 +14,7 @@ exports.PEERS = {
 }
 
 exports.ANNOUNCEMENTS = {
-  rssUrl: 'https://blog.ark.io/feed'
+  rssUrl: 'https://laroue.org/feed'
 }
 
 exports.VENDOR_FIELD = {

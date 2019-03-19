@@ -1,7 +1,7 @@
 version: 2
 jobs:
   test-node-11:
-    working_directory: ~/new-desktop-wallet
+    working_directory: ~/desktop-wallet
     docker:
       - image: circleci/node:11.10.1-browsers
     steps:

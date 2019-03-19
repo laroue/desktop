@@ -1,25 +1,21 @@
 {
   "private": true,
-  "name": "ark-desktop-wallet",
-  "version": "2.3.0",
+  "name": "LaRoue",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkEcosystem/desktop-wallet.git"
+    "url": "git+https://github.com/laroue/desktop-wallet.git"
   },
-  "author": "ArkEcosystem <info@ark.io>",
+  "author": "LaRoue <info@laroue.org>",
   "contributors": [
-    "Alex Barnsley <alex@ark.io>",
-    "ItsANameToo <itsanametoo@protonmail.com>",
-    "Juan A. Martín <juan@ark.io>",
-    "Lúcio Rubens <lucio@ark.io>",
-    "Mario Vega <mario@ark.io>"
+    "Luc Talarico <lta@laroue.org>"
   ],
-  "description": "Ark Ecosystem Desktop Wallet",
+  "description": "Portefeuille de bureau",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArkEcosystem/desktop-wallet/issues"
+    "url": "https://github.com/laroue/desktop-wallet/issues"
   },
-  "homepage": "https://github.com/ArkEcosystem/desktop-wallet#readme",
+  "homepage": "https://github.com/laroue/desktop-wallet#readme",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -35,6 +31,7 @@
     "i18n": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l",
     "i18n:all": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l 'src/renderer/i18n/locales/*.js'",
     "i18n:en-US": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l 'src/renderer/i18n/locales/en-US.js'",
+    "i18n:fr-FR": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l 'src/renderer/i18n/locales/fr-FR.js'",
     "lint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter src __tests__",
     "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src __tests__",
     "pack": "npm run pack:main && npm run pack:renderer",
@@ -164,8 +161,8 @@
     "webpack-hot-middleware": "^2.24.3"
   },
   "build": {
-    "productName": "Ark Desktop Wallet",
-    "appId": "io.ark.desktop-wallet",
+    "productName": "Portfefeuille de Bureau",
+    "appId": "io.laroue.desktop-wallet",
     "compression": "maximum",
     "artifactName": "${name}-${os}-${arch}-${version}.${ext}",
     "protocols": {
@@ -191,7 +188,7 @@
     },
     "linux": {
       "category": "Utility",
-      "executableName": "ark-desktop-wallet",
+      "executableName": "desktop-wallet",
       "icon": "build/icons",
       "target": [
         "AppImage",

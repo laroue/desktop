@@ -66,7 +66,7 @@ export default {
       OWNER: 'Cela entraîne également une plus grande responsabilité pour vous, le propriétaire du compte.',
       WARNING: {
         ACCOUNT: 'Contrairement à votre compte bancaire traditionnel, {CANNOT_RESTORE}.',
-        CANNOT_RESTORE: 'Les mots de passe, phrases secrètes ou fonds volés perdus ne peuvent pas être restaurés par les délégués, l\'équipe ARK ou toute autre personne.'
+        CANNOT_RESTORE: 'Les mots de passe, phrases secrètes ou fonds volés perdus ne peuvent pas être restaurés par les délégués, l\'équipe ou toute autre personne.'
       },
       SECURITY: 'La sécurité de votre compte dépend uniquement de vous.'
     },
