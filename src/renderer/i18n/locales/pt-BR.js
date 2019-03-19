@@ -1,9 +1,11 @@
 export default {
 
   LANGUAGES: {
-    'en-US': 'Inglês',
-    'es-ES': 'Espanhol',
-    'pt-BR': 'Português - Brasil'
+    'en-US': 'English',
+    'es-ES': 'Español',
+    'fr-FR': 'Français',
+    'it-IT': 'Italiano',
+    'pt-BR': 'Portugues - Brazil'
   }
 
 }

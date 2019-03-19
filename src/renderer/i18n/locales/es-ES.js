@@ -5,9 +5,11 @@ export default {
   },
 
   LANGUAGES: {
-    'en-US': 'Inglés',
+    'en-US': 'English',
     'es-ES': 'Español',
-    'pt-BR': 'Portugués - Brasil'
+    'fr-FR': 'Français',
+    'it-IT': 'Italiano',
+    'pt-BR': 'Portugues - Brazil'
   },
 
   ButtonClipboard: {
