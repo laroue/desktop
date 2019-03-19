@@ -52,7 +52,7 @@
   "vendorField": {
     "maxLength": 64
   },
-  "nethash": "2a44f340d76ffc3df204c5f38cd355b7496c9065a1ade2ef92071436bd72e867",
+  "nethash": "e28d1fdcb56b2911f69c8cb992760aa93962b5564f77f31e22de810fcf9c9bd1",
   "explorer": "https://dexplorer.laroue.org",
   "token": "DMLC",
   "subunit": "dmlctoshi",
