@@ -7,6 +7,8 @@ thumbs.db
 dist/electron/*
 dist/web/*
 
+config/backup/*
+
 build/*
 !build/background.png
 !build/icons
