@@ -5,12 +5,20 @@ exports.APP = {
 
 exports.NETWORKS = [
   require('./networks/mainnet.json'),
-  require('./networks/devnet.json')
+  require('./networks/devnet.json'),
+  require('./networks/laroue/mainnet.json'),
+  require('./networks/laroue/devnet.json'),
+  require('./networks/ockham/mainnet.json'),
+  require('./networks/ockham/devnet.json')
 ]
 
 exports.PEERS = {
   'ark.mainnet': require('./peers/mainnet.json'),
-  'ark.devnet': require('./peers/devnet.json')
+  'ark.devnet': require('./peers/devnet.json'),
+  'mlc.mainnet': require('./peers/laroue/mainnet.json'),
+  'mlc.devnet': require('./peers/laroue/devnet.json'),
+  'ock.mainnet': require('./peers/ockham/mainnet.json'),
+  'ock.devnet': require('./peers/ockham/devnet.json')
 }
 
 exports.ANNOUNCEMENTS = {
