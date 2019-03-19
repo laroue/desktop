@@ -8,7 +8,7 @@
   "apiVersion": 1,
   "slip44": "1",
   "market": {
-    "enabled": true,
+    "enabled": false,
     "ticker": "MLC"
   },
   "feeStatistics": [
@@ -58,7 +58,7 @@
   "subunit": "mlctoshi",
   "symbol": "☸",
   "fractionDigits": 8,
-  "version": 23,
+  "version": 60,
   "wif": 170,
   "knownWallets": {
     "RTGZZbDPJRHzVaedWvvD2fCy7htRhNwv8x": "Genesis Wallet",

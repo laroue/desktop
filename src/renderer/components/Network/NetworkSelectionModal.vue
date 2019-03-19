@@ -20,7 +20,7 @@
             <!-- TODO: make network.svg override the default placeholder when users can set their own icons -->
             <img
               class="w-18 h-18 p-2"
-              :src="assets_loadImage('networks/default.svg')"
+              :src="assets_loadImage(`networks/${network.id}.svg`)"
             >
             <div class="NetworkSelectionModal__network--name">
               {{ network.name | truncate(20) }}
@@ -68,7 +68,7 @@ export default {
 
   methods: {
     getCustomNetworks () {
-      return Object.values(this.$store.getters['network/customNetworks'])
+      return Object.values(this.$store.getters['network/all'])
     },
 
     selectNetwork (network) {
@@ -89,7 +89,7 @@ export default {
 <style>
 .NetworkSelectionModal__grid {
   display: grid;
-  grid-template-columns: repeat(3, 4.5rem);
+  grid-template-columns: repeat(4, 4.5rem);
   grid-gap: 1rem;
 }
 

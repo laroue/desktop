@@ -161,7 +161,7 @@
     "webpack-hot-middleware": "^2.24.3"
   },
   "build": {
-    "productName": "Portfefeuille de Bureau",
+    "productName": "LaRoue",
     "appId": "io.laroue.desktop-wallet",
     "compression": "maximum",
     "artifactName": "${name}-${os}-${arch}-${version}.${ext}",
@@ -188,7 +188,7 @@
     },
     "linux": {
       "category": "Utility",
-      "executableName": "desktop-wallet",
+      "executableName": "laroue",
       "icon": "build/icons",
       "target": [
         "AppImage",

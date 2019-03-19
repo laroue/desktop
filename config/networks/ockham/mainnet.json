@@ -5,10 +5,10 @@
   "server": "https://explorer.ockham.consulting:8443",
   "description": "The OCK Mainnet should be chosen in most cases.",
   "imagePath": "networks/ock.mainnet.svg",
-  "apiVersion": 2,
-  "slip44": "111",
+  "apiVersion": 1,
+  "slip44": "1",
   "market": {
-    "enabled": true,
+    "enabled": false,
     "ticker": "OCK"
   },
   "feeStatistics": [

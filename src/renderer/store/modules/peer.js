@@ -306,8 +306,8 @@ export default {
       }
 
       const networkLookup = {
-        'ark.mainnet': 'mainnet',
-        'ark.devnet': 'devnet',
+      //  'ark.mainnet': 'ark/mainnet',
+      //  'ark.devnet': 'ark/devnet',
         'mlc.mainnet': 'laroue/mainnet',
         'mlc.devnet': 'laroue/devnet',
         'ock.mainnet': 'ockham/mainnet',

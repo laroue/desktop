@@ -121,12 +121,14 @@ export default {
 
   methods: {
     getNetworks () {
-      const defaultNetworkIds = ['ark.mainnet', 'ark.devnet', 'mlc.mainnet', 'mlc.devnet', 'ock.mainnet', 'ock.devnet']
+      const defaultNetworkIds = ['mlc.mainnet', 'mlc.devnet', 'ock.mainnet', 'ock.devnet']
+      // const customNetworks = ['mlc.mainnet', 'mlc.devnet', 'ock.mainnet', 'ock.devnet']
 
       this.networks = Object.values(this.$store.getters['network/all']).map(network => {
         return {
           ...network,
           isDefault: defaultNetworkIds.indexOf(network.id) > -1
+          // isCustom: customNetworkIds.indexOf(network.id) > -1
         }
       })
     },

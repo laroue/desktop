@@ -1,6 +1,6 @@
 import bip39 from 'bip39'
 import { crypto, Message, validator } from '@arkecosystem/crypto'
-import { version as mainnetVersion } from '@config/networks/mainnet'
+// import { version as mainnetVersion } from '@config/networks/mainnet'
 import axios from 'axios'
 
 export default class WalletService {
@@ -64,7 +64,7 @@ export default class WalletService {
    * @returns {Boolean}
    */
   static async isNeoAddress (address) {
-    if (!WalletService.validateAddress(address, mainnetVersion)) {
+    if (!WalletService.validateAddress(address)) { // if (!WalletService.validateAddress(address, mainnetVersion)) {
       return false
     }
 

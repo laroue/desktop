@@ -5,7 +5,7 @@
   "server": "https://dexplorer.ockham.consulting:8443",
   "description": "The OCK Devnet is only used for R&D by engineers.",
   "imagePath": "networks/ock.devnet.svg",
-  "apiVersion": 2,
+  "apiVersion": 1,
   "slip44": "1",
   "market": {
     "enabled": false,
